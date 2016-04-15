@@ -1,0 +1,43 @@
+ExtraTreesClassifier(
+	bootstrap=False	class_weight=None    max_leaf_nodes=None,
+    min_samples_leaf=1    min_samples_split=4,
+    n_jobs=2,
+    oob_score=False    random_state=None    verbose=0    warm_start=False,
+    min_weight_fraction_leaf=0.0)
+
+	criterion = c, max_depth = d, max_features = f, n_estimators = n
+
+Results
+
+c,d,f,n =    ('gini',45, 40, 100) CV Score 0.785324 log-loss 0.044084
+c,d,f,n =    ('gini',45, 40, 500) CV Score 0.786688 log-loss 0.044016
+c,d,f,n =    ('gini',45, 50, 100) CV Score 0.785245 log-loss 0.040425
+c,d,f,n =    ('gini',45, 50, 500) CV Score 0.787231 log-loss 0.040304
+c,d,f,n =    ('gini',45, 60, 100) CV Score 0.784886 log-loss 0.037806
+c,d,f,n =    ('gini',45, 60, 500) CV Score 0.786653 log-loss 0.037645
+c,d,f,n = ('entropy',45, 40,  10) CV Score 0.764908 log-loss 0.036937
+c,d,f,n = ('entropy',45, 40, 100) CV Score 0.786111 log-loss 0.036256
+c,d,f,n =    ('gini',45, 70, 100) CV Score 0.784738 log-loss 0.035857
+c,d,f,n = ('entropy',45, 40, 500) CV Score 0.786872 log-loss 0.035744
+c,d,f,n =    ('gini',45, 70, 500) CV Score 0.785936 log-loss 0.035662
+c,d,f,n =    ('gini',45, 80, 100) CV Score 0.784545 log-loss 0.034211
+c,d,f,n =    ('gini',45, 80, 500) CV Score 0.785254 log-loss 0.034093
+c,d,f,n =    ('gini',45, 90, 500) CV Score 0.784703 log-loss 0.032902
+c,d,f,n =    ('gini',45, 90, 100) CV Score 0.783321 log-loss 0.032800
+c,d,f,n = ('entropy',45, 50,  10) CV Score 0.763342 log-loss 0.032777
+c,d,f,n = ('entropy',45, 50, 100) CV Score 0.785333 log-loss 0.032211
+c,d,f,n = ('entropy',45, 50, 500) CV Score 0.786741 log-loss 0.031789
+c,d,f,n = ('entropy',45, 60,  10) CV Score 0.763875 log-loss 0.030049
+c,d,f,n = ('entropy',45, 60, 100) CV Score 0.784974 log-loss 0.029147
+c,d,f,n = ('entropy',45, 60, 500) CV Score 0.786925 log-loss 0.028956
+c,d,f,n = ('entropy',45, 70,  10) CV Score 0.761400 log-loss 0.027536
+c,d,f,n = ('entropy',45, 70, 100) CV Score 0.785271 log-loss 0.027197
+c,d,f,n = ('entropy',45, 70, 500) CV Score 0.785980 log-loss 0.027194
+c,d,f,n = ('entropy',45, 80,  10) CV Score 0.760263 log-loss 0.025816
+c,d,f,n = ('entropy',45, 80, 500) CV Score 0.785717 log-loss 0.025591 Kaggle 0.45646
+c,d,f,n = ('entropy',45, 80, 100) CV Score 0.783574 log-loss 0.025458
+c,d,f,n = ('entropy',45, 90, 500) CV Score 0.785700 log-loss 0.024440 Kaggle 0.45645
+c,d,f,n = ('entropy',45, 90, 100) CV Score 0.784703 log-loss 0.024409 Kaggle 0.46292
+c,d,f,n = ('entropy',45, 90,  10) CV Score 0.761890 log-loss 0.024407 Kaggle 0.84545
+c,d,f,n = ('entropy',45, 90, 750) CV Score 0.785210 log-loss 0.024302
+c,d,f,n = ('entropy',45, 95,1000) CV Score 0.785298 log-loss 0.023851 Kaggle 0.45614
